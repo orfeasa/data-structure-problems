@@ -18,3 +18,14 @@ def finder(arr1: List, arr2: List) -> int:
         else:
             # subtract occurrences
             occurrences_left[num] -= 1
+
+
+def finder2(arr1, arr2):
+    result = 0
+
+    # Perform an XOR between the numbers in the arrays
+    for num in arr1 + arr2:
+        result ^= num
+
+    return result
+
