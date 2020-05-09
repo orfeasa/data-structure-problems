@@ -2,18 +2,18 @@ from typing import List
 
 
 def pair_sum(arr: List, k: int) -> int:
-    count = 0
-    pairs = []
+    seen = set()
+    output = set()
+
     # for each array element
-    for ele in arr:
-        # check if k - element is also in the array
-        # check if we already counted that pair
-        if (
-            k - ele in arr
-            and (ele, k - ele) not in pairs
-            and (k - ele, ele) not in pairs
-        ):
-            count += 1
-            pairs += [(ele, k - ele)]
-    print(pairs)
-    return count
+    for num in arr:
+        # check if k - num is also in the array
+        if k - num in seen:
+            output.add((min(num, k - num), max(num, k - num)))
+
+        # add current number to the numbers seen
+        # this should be after the check to count pairs of the same value correctly
+        seen.add(num)
+
+    print(output)
+    return len(output)
