@@ -1,6 +1,4 @@
-# 242. Valid Anagram(https://leetcode.com/problems/valid-anagram/description/)
-
-
+# Cheating
 def anagram2(s1: str, s2: str) -> bool:
     string1 = "".join(sorted(s1.lower())).strip()
     string2 = "".join(sorted(s2.lower())).strip()
@@ -8,23 +6,28 @@ def anagram2(s1: str, s2: str) -> bool:
 
 
 def anagram(s1: str, s2: str) -> bool:
-    char_map = {}
-    for char in s1:
-        char = char.lower()
-        if char != " ":
-            char_map.setdefault(char, 0)
-            char_map[char] += 1
+    # initialize strings and ignore spaces
+    s1 = s1.lower().replace(" ", "")
+    s2 = s2.lower().replace(" ", "")
 
+    # create map of characters in first string
+    char_map = {}
+
+    for char in s1:
+        char_map.setdefault(char, 0)
+        char_map[char] += 1
+
+    # check if the 2nd string has the same characters in the same amounts
     for char in s2:
-        char = char.lower()
-        if char != " ":
-            if char in char_map.keys():
-                char_map[char] -= 1
-              else:
-	        	return False
+        if char in char_map:
+            char_map[char] -= 1
+        else:
+            # character does not exist in 1st string
+            return False
 
     for char in char_map:
         if char_map[char] != 0:
+            # character has different number of occurrences in 1st string
             return False
 
     return True
