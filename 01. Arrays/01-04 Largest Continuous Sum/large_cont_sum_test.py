@@ -12,3 +12,9 @@ class FinderTest(unittest.TestCase):
 
     def test3(self):
         self.assertEqual(large_cont_sum([-1, 1]), 1)
+
+    def test4(self):
+        self.assertEqual(large_cont_sum([-2, -1]), -1)
+
+    def test5(self):
+        self.assertEqual(large_cont_sum([0, 2, 0, 2]), 4)
