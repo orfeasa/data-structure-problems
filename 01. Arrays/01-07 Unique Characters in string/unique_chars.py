@@ -8,3 +8,7 @@ def uni_char(s: str) -> bool:
             chars.add(char)
 
     return True
+
+
+def uni_char2(s: str) -> bool:
+    return len(set(s)) == len(s)
