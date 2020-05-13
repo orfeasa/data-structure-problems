@@ -3,7 +3,9 @@
 A list of programming problems on data structures, solved in Python.
 Each problem contains the problem description and unit tests in a separate file. Contributions are welcome!
 
-## 1. Arrays
+## Contents
+
+### 1. Arrays
 
 1. [Anagram Check](https://github.com/orfeasa/data-structure-problems/tree/master/01.%20Arrays/01-01%20Anagram%20Check)
 1. [Array pair sum](https://github.com/orfeasa/data-structure-problems/tree/master/01.%20Arrays/01-02%20Array%20pair%20sum)
@@ -13,16 +15,16 @@ Each problem contains the problem description and unit tests in a separate file.
 1. [String Compression](https://github.com/orfeasa/data-structure-problems/tree/master/01.%20Arrays/01-06%20String%20Compression)
 1. [Unique Characters in string](https://github.com/orfeasa/data-structure-problems/tree/master/01.%20Arrays/01-07%20Unique%20Characters%20in%20string)
 
-## 2. Stacks, Queues and Deques
+### 2. Stacks, Queues and Deques
 
-## 3. Linked Lists
+### 3. Linked Lists
 
-## 4. Recursion
+### 4. Recursion
 
-## 5. Trees
+### 5. Trees
 
-## 6. Searching and Sorting
+### 6. Searching and Sorting
 
-## 7. Graph Algorithms
+### 7. Graph Algorithms
 
-## 8. Riddles
+### 8. Riddles
