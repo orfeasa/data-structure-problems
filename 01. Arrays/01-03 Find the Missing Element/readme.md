@@ -6,10 +6,34 @@ Consider an array of non-negative integers. A second array is formed by shufflin
 
 Here is an example input, the first array is shuffled and the number 5 is removed to construct the second array.
 
-Input:
+```python
+>>> finder([1,2,3,4,5,6,7],[3,7,2,1,4,6])
+5
+```
 
-    finder([1,2,3,4,5,6,7],[3,7,2,1,4,6])
+5 is the missing number
 
-Output:
+## Code
 
-    5 is the missing number
+Create your solution in the form:
+
+```python
+def finder(arr1: List, arr2: List) -> int:
+    pass
+```
+
+## Examples
+
+```python
+>>> arr1 = [1,2,3,4,5,6,7]
+>>> arr2 = [3,7,2,1,4,6]
+>>> finder(arr1,arr2)
+5
+```
+
+```python
+>>> arr1 = [5,5,7,7]
+>>> arr2 = [5,7,7]
+>>> finder(arr1,arr2)
+5
+```
