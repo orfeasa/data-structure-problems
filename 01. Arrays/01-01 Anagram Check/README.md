@@ -13,3 +13,23 @@ For example:
 **Note: Ignore spaces and capitalization. So "d go" is an anagram of "God" and "dog" and "o d g".**
 
 Leetcode: Valid Anagram (https://leetcode.com/problems/valid-anagram/description/)
+
+## Code
+
+Create your solution in the form:
+
+```python
+def anagram(s1: str, s2: str) -> bool:
+    pass
+```
+
+## Examples
+
+```python
+>>> anagram('dog','god')
+True
+>>> anagram('clint eastwood','old west action')
+True
+>>> anagram('aa','bb')
+False
+```
