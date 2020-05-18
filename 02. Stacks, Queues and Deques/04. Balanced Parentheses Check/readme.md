@@ -6,6 +6,8 @@ Given a string of opening and closing parentheses, check whether it’s balanced
 
 You can assume the input string has no spaces.
 
+Leetcode: https://leetcode.com/problems/valid-parentheses/
+
 ## Code
 
 Create your solution in the form:
