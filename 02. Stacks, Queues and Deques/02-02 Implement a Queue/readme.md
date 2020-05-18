@@ -2,7 +2,7 @@
 
 ## Problem
 
-It's very common to be asked to implement a Queue class! The class should be able to do the following:
+Implement a Queue class. The class should be able to do the following:
 
 - Check if Queue is Empty
 - Enqueue
