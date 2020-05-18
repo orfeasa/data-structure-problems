@@ -1,6 +1,10 @@
 def balance_check(s: str) -> bool:
     stack = []
 
+    # Check for even number
+    if len(s) % 2 != 0:
+        return False
+
     # set up pairs so that keys are closing and values are opening
     pairs = {
         "]": "[",
