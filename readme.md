@@ -21,7 +21,7 @@ Each problem contains the problem description and unit tests in a separate file.
 1. [Implement a Queue](https://github.com/orfeasa/data-structure-problems/tree/master/02.%20Stacks%2C%20Queues%20and%20Deques/02-02%20Implement%20a%20Queue)
 1. [Implement a Deque](https://github.com/orfeasa/data-structure-problems/tree/master/02.%20Stacks%2C%20Queues%20and%20Deques/02-03%20Implement%20a%20Deque)
 1. [Balanced Parentheses Check](https://github.com/orfeasa/data-structure-problems/tree/master/02.%20Stacks%2C%20Queues%20and%20Deques/02-04%20Balanced%20Parentheses%20Check)
-1. [Implement a Queue -Using Two Stacks](https://github.com/orfeasa/data-structure-problems/tree/master/02.%20Stacks%2C%20Queues%20and%20Deques/02-05%20Implement%20a%20Queue%20Using%20Two%20Stacks)
+1. [Implement a Queue Using Two Stacks](https://github.com/orfeasa/data-structure-problems/tree/master/02.%20Stacks%2C%20Queues%20and%20Deques/02-05%20Implement%20a%20Queue%20Using%20Two%20Stacks)
 
 ### 3. Linked Lists
 
