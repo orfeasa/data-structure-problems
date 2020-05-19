@@ -6,20 +6,15 @@ class Queue2Stacks(object):
         self.inbox = []
         self.outbox = []
 
-    # we will use stack 1 to enqueue items (push), and stack 2 to dequeue items (pop)
-    # pushing all the items in a stack and then popping them all reverses their order,
-    # so before any operation we need to move all the items to the respective stack
-
     def enqueue(self, element: Any) -> None:
-        # move all elements to stack 1
-        while len(self.outbox) != 0:
-            self.inbox.append(self.outbox.pop())
-
+        # push new element onto inbox
         self.inbox.append(element)
 
     def dequeue(self) -> Any:
-        # move all elements to stack 2
-        while len(self.inbox) != 0:
-            self.outbox.append(self.inbox.pop())
+        # If outbox is empty, refill it by popping each element from inbox and pushing it
+        # onto outbox. Pop and return the top element from outbox
+        if len(self.outbox) == 0:
+            while len(self.inbox) != 0:
+                self.outbox.append(self.inbox.pop())
 
         return self.outbox.pop()

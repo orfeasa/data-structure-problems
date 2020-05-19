@@ -10,6 +10,8 @@ stack1 = []
 stack2 = []
 ```
 
+Leetcode: https://leetcode.com/problems/implement-queue-using-stacks/
+
 ## Code
 
 ```python
@@ -28,7 +30,7 @@ class Queue2Stacks(object):
         pass
 ```
 
-## Examples
+## Example
 
 ```python
 >>> q = Queue2Stacks()
