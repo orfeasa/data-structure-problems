@@ -1,3 +1,6 @@
+from typing import Dict
+
+
 # Cheating
 def anagram2(s1: str, s2: str) -> bool:
     string1 = "".join(sorted(s1.lower())).strip()
@@ -11,7 +14,7 @@ def anagram(s1: str, s2: str) -> bool:
     s2 = s2.lower().replace(" ", "")
 
     # create map of characters in first string
-    char_map = {}
+    char_map: Dict[str, int] = {}
 
     for char in s1:
         char_map.setdefault(char, 0)

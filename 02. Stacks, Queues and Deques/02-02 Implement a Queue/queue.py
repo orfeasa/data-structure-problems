@@ -1,9 +1,9 @@
-from typing import Any
+from typing import Any, List
 
 
 class Queue(object):
-    def __init__(self):
-        self.items = []
+    def __init__(self) -> None:
+        self.items: List[Any] = []
 
     def size(self) -> int:
         # Returns the size of the Queue

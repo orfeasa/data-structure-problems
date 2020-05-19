@@ -1,9 +1,9 @@
-from typing import Any
+from typing import Any, List
 
 
 class Deque(object):
     def __init__(self) -> None:
-        self.items = []
+        self.items: List[Any] = []
 
     def size(self) -> int:
         # Checks the Size

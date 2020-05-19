@@ -1,9 +1,9 @@
-from typing import Any
+from typing import Any, List
 
 
 class Stack(object):
     def __init__(self) -> None:
-        self.items = []
+        self.items: List[Any] = []
 
     def push(self, item: Any) -> None:
         # Push a new item

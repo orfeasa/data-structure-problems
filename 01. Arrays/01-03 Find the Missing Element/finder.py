@@ -28,4 +28,3 @@ def finder2(arr1, arr2):
         result ^= num
 
     return result
-
