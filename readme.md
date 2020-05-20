@@ -34,3 +34,13 @@ Each problem contains the problem description and unit tests in a separate file.
 ### 7. Graph Algorithms
 
 ### 8. Riddles
+
+## Code linting & formatting
+
+```console
+black . && flake8 && mypy
+```
+
+## License
+
+This code is licensed under the MIT license. For more information, read the LICENSE file.
