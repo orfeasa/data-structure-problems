@@ -43,4 +43,4 @@ black . && flake8 && mypy
 
 ## License
 
-This code is licensed under the MIT license. For more information, read the LICENSE file.
+All content is licensed under the terms of the MIT open source license. For more information, read the LICENSE file.
