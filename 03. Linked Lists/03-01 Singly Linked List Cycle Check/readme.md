@@ -17,6 +17,8 @@ class Node(object):
         self.nextnode = None
 ```
 
+Leetcode: https://leetcode.com/problems/linked-list-cycle/
+
 ## Code
 
 Write your code in the form:
