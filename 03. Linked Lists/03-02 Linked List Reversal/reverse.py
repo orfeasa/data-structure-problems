@@ -6,14 +6,11 @@ class Node(object):
 
 def reverse(head: Node) -> Node:
     # initialize variables
-    current_node = next_node = head
-    prev_node = None
+    current_node = head
+    prev_node = next_node = None
 
     # while there are still nodes
-    while next_node is not None:
-        # set as current node the one that was after the previous one
-        current_node = next_node
-
+    while current_node is not None:
         # save the node to visit next
         next_node = current_node.nextnode
 
@@ -22,5 +19,6 @@ def reverse(head: Node) -> Node:
 
         # update the previous node as the current one
         prev_node = current_node
+        current_node = next_node
 
-    return current_node
+    return prev_node
