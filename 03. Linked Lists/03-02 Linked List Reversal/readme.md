@@ -14,6 +14,8 @@ class Node(object):
         self.nextnode = None
 ```
 
+Leetcode: https://leetcode.com/problems/reverse-linked-list/
+
 ## Code
 
 Create your solution in the form:
