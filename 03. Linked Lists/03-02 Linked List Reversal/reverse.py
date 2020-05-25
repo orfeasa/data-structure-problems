@@ -1,13 +1,17 @@
+from typing import Optional
+
+
 class Node(object):
     def __init__(self, value):
         self.value = value
         self.nextnode = None
 
 
-def reverse(head: Node) -> Node:
+def reverse(head: Node) -> Optional[Node]:
     # initialize variables
     current_node = head
-    prev_node = next_node = None
+    prev_node: Optional[Node] = None
+    next_node = None
 
     # while there are still nodes
     while current_node is not None:
