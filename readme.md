@@ -25,6 +25,10 @@ Each problem contains the problem description and unit tests in a separate file.
 
 ### 3. Linked Lists
 
+1. [Singly Linked List Cycle Check](https://github.com/orfeasa/data-structure-problems/tree/master/03.%20Linked%20Lists/03-01%20Singly%20Linked%20List%20Cycle%20Check)
+1. [Linked List Reversal](https://github.com/orfeasa/data-structure-problems/tree/master/03.%20Linked%20Lists/03-02%20Linked%20List%20Reversal)
+1. [Linked List Nth to Last Node](https://github.com/orfeasa/data-structure-problems/tree/master/03.%20Linked%20Lists/03-03%20Linked%%20Nth%20to%20Last%20Node)
+
 ### 4. Recursion
 
 ### 5. Trees
