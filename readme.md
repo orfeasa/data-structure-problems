@@ -31,6 +31,8 @@ Each problem contains the problem description and unit tests in a separate file.
 
 ### 4. Recursion
 
+1. [Word Split](https://github.com/orfeasa/data-structure-problems/tree/master/04.%20Recursion/04-01%20Word%20Split)
+
 ### 5. Trees
 
 ### 6. Searching and Sorting
