@@ -29,11 +29,9 @@ def permute2(s: str) -> List[str]:
     else:
         # For every letter in string
         for i, letter in enumerate(s):
-
             # For every permutation without that letter
             for perm in permute(s[:i] + s[i + 1 :]):
-
                 # Add it to output
-                out += [letter + perm]
+                out.append(letter + perm)
 
     return out
