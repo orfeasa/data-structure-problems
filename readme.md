@@ -34,7 +34,7 @@ Each problem contains the problem description and unit tests in a separate file.
 1. [Word Split](https://github.com/orfeasa/data-structure-problems/tree/master/04.%20Recursion/04-01%20Word%20Split)
 1. [Reverse String](https://github.com/orfeasa/data-structure-problems/tree/master/04.%20Recursion/04-02%20Reverse%20a%20String)
 1. [String Permutation](https://github.com/orfeasa/data-structure-problems/tree/master/04.%20Recursion/04-03%20String%20Permutation)
-1. Fibonacci Sequence
+1. [Fibonacci Sequence](https://github.com/orfeasa/data-structure-problems/tree/master/04.%20Recursion/04-04%20Fibonacci%20Sequence)
 1. Coin Change
 
 ### 5. Trees
