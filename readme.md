@@ -7,34 +7,34 @@ Each problem contains the problem description and unit tests in a separate file.
 
 ### 1. Arrays
 
-1. [Anagram Check](01.%20Arrays/01-01%20Anagram%20Check)
-1. [Array pair sum](01.%20Arrays/01-02%20Array%20pair%20sum)
-1. [Find the Missing Element](01.%20Arrays/01-03%20Find%20the%20Missing%20Element)
-1. [Largest Continuous Sum](01.%20Arrays/01-04%20Largest%20Continuous%20Sum)
-1. [Sentence Reversal](01.%20Arrays/01-05%20Sentence%20Reversal)
-1. [String Compression](01.%20Arrays/01-06%20String%20Compression)
-2. [Unique Characters in string](01.%20Arrays/01-07%20Unique%20Characters%20in%20string)
+1. [Anagram Check](<01. Arrays/01-01 Anagram Check>)
+1. [Array pair sum](<01. Arrays/01-02 Array pair sum>)
+1. [Find the Missing Element](<01. Arrays/01-03 Find the Missing Element>)
+1. [Largest Continuous Sum](<01. Arrays/01-04 Largest Continuous Sum>)
+1. [Sentence Reversal](<01. Arrays/01-05 Sentence Reversal>)
+1. [String Compression](<01. Arrays/01-06 String Compression>)
+2. [Unique Characters in string](<01. Arrays/01-07 Unique Characters in string>)
 
 ### 2. Stacks, Queues and Deques
 
-1. [Implement a Stack](02.%20Stacks%2C%20Queues%20and%20Deques/02-01%20Implement%20a%20Stack)
-1. [Implement a Queue](02.%20Stacks%2C%20Queues%20and%20Deques/02-02%20Implement%20a%20Queue)
-1. [Implement a Deque](02.%20Stacks%2C%20Queues%20and%20Deques/02-03%20Implement%20a%20Deque)
-1. [Balanced Parentheses Check](02.%20Stacks%2C%20Queues%20and%20Deques/02-04%20Balanced%20Parentheses%20Check)
-1. [Implement a Queue Using Two Stacks](02.%20Stacks%2C%20Queues%20and%20Deques/02-05%20Implement%20a%20Queue%20Using%20Two%20Stacks)
+1. [Implement a Stack](<02. Stacks%2C Queues and Deques/02-01 Implement a Stack>)
+1. [Implement a Queue](<02. Stacks%2C Queues and Deques/02-02 Implement a Queue>)
+1. [Implement a Deque](<02. Stacks%2C Queues and Deques/02-03 Implement a Deque>)
+1. [Balanced Parentheses Check](<02. Stacks%2C Queues and Deques/02-04 Balanced Parentheses Check>)
+1. [Implement a Queue Using Two Stacks](<02. Stacks%2C Queues and Deques/02-05 Implement a Queue Using Two Stacks>)
 
 ### 3. Linked Lists
 
-1. [Singly Linked List Cycle Check](03.%20Linked%20Lists/03-01%20Singly%20Linked%20List%20Cycle%20Check)
-1. [Linked List Reversal](03.%20Linked%20Lists/03-02%20Linked%20List%20Reversal)
-1. [Linked List Nth to Last Node](03.%20Linked%20Lists/03-03%20Linked%20List%20Nth%20to%20Last%20Node)
+1. [Singly Linked List Cycle Check](<03. Linked Lists/03-01 Singly Linked List Cycle Check>)
+1. [Linked List Reversal](<03. Linked Lists/03-02 Linked List Reversal>)
+1. [Linked List Nth to Last Node](<03. Linked Lists/03-03 Linked List Nth to Last Node>)
 
 ### 4. Recursion
 
-1. [Word Split](04.%20Recursion/04-01%20Word%20Split)
-1. [Reverse String](04.%20Recursion/04-02%20Reverse%20a%20String)
-1. [String Permutation](04.%20Recursion/04-03%20String%20Permutation)
-1. [Fibonacci Sequence](04.%20Recursion/04-04%20Fibonacci%20Sequence)
+1. [Word Split](<04. Recursion/04-01 Word Split>)
+1. [Reverse String](<04. Recursion/04-02 Reverse a String>)
+1. [String Permutation](<04. Recursion/04-03 String Permutation>)
+1. [Fibonacci Sequence](<04. Recursion/04-04 Fibonacci Sequence>)
 1. Coin Change
 
 ### 5. Trees
