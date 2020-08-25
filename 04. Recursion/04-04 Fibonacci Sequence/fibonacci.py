@@ -1,6 +1,6 @@
 from typing import Optional, List
 
-# Recursive fuction
+# Recursive function
 def fib_rec(n: int) -> int:
     # base case
     if n == 0 or n == 1:
@@ -41,3 +41,15 @@ def fib_iter(n: int) -> int:
     phi = (1 + 5 ** 0.5) / 2
     psi = 1 - phi
     return round((phi ** n - psi ** n) / 5 ** 0.5)
+
+
+def fib_iter2(n: int) -> int:
+    # Set starting point
+    a = 0
+    b = 1
+
+    # Follow algorithm
+    for _ in range(n):
+        a, b = b, a + b
+
+    return a
