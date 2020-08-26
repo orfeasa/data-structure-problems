@@ -11,5 +11,5 @@ class RecCoinTest(unittest.TestCase):
         self.assertEqual(rec_coin(74, coins), 8)
 
     def test_non_canonical(self):
-        coins = [1, 3, 4, 6]
+        coins = [1, 3, 4]
         self.assertEqual(rec_coin(6, coins), 2)
