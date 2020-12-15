@@ -37,6 +37,7 @@ Each problem contains the problem description and unit tests in a separate file.
 1. [Fibonacci Sequence](<04. Recursion/04-04 Fibonacci Sequence>)
 1. [Coin Change](<04. Recursion/04-05 Coin Change>)
 
+<!-- 
 ### 5. Trees
 
 1. Binary Search Tree Check
@@ -68,7 +69,7 @@ Each problem contains the problem description and unit tests in a separate file.
 1. Hallway Lockers
 1. Jugs of Water
 1. Light Switches
-1. Ropes Burning
+1. Ropes Burning -->
 
 ## Code linting & formatting
 
